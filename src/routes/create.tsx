@@ -22,7 +22,7 @@ export const Route = createFileRoute("/create")({
       },
     ],
   }),
-  component: CreatePage;
+  component: CreatePage,
 });
 
 const SUBJECTS = ["Science", "Math", "English", "Filipino", "Araling Panlipunan", "MAPEH", "ESP"];

@@ -9,13 +9,13 @@ import { LANGUAGE_LABELS, type LanguageMode, type SampleTest } from "@/lib/test-
 export const Route = createFileRoute("/create")({
   head: () => ({
     meta: [
-      { title: "Create a test — TestMakera" },
+      { title: "Create a test — REEKO - TEST GENERATOR" },
       {
         name: "description",
         content:
           "Enter your subject, grade level, and lesson pointers to generate multiple-choice questions.",
       },
-      { property: "og:title", content: "Create a test — TestMakera" },
+      { property: "og:title", content: "Create a test — REEKO - TEST GENERATOR" },
       {
         property: "og:description",
         content: "Enter lesson pointers and generate a sample test in seconds.",

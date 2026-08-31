@@ -7,13 +7,13 @@ import { LANGUAGE_LABELS, type SampleTest } from "@/lib/test-types";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "TestMakera — Sample tests from your lesson pointers" },
+      { title: "REEKO - TEST GENERATOR — Sample tests from your lesson pointers" },
       {
         name: "description",
         content:
           "Grade school teachers: turn lesson pointers into multiple-choice tests in English, Tagalog, or Taglish and download them as PDF or Word.",
       },
-      { property: "og:title", content: "TestMakera — Sample tests from your lesson pointers" },
+      { property: "og:title", content: "REEKO - TEST GENERATOR — Sample tests from your lesson pointers" },
       {
         property: "og:description",
         content: "Enter pointers, generate a test, review it, and download a print-ready sheet.",

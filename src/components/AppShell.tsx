@@ -17,11 +17,11 @@ export function AppShell({ children }: { children: ReactNode }) {
       <header className="px-4 pt-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <span className="size-8 grid place-items-center bg-accent text-cream font-marker text-base rotate-[-6deg] wob">
-            T
+            RG
           </span>
           <div className="leading-none">
-            <p className="font-display text-2xl tracking-tight">TestMakera</p>
-            <p className="font-marker text-[11px] text-accent -mt-0.5">test builder for teachers</p>
+            <p className="font-display text-2xl tracking-tight">REEKO - TEST GENERATOR</p>
+            <p className="font-marker text-[11px] text-accent -mt-0.5">TEST BUILDER FOR REEKO GUTANG</p>
           </div>
         </Link>
       </header>

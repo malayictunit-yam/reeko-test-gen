@@ -7,12 +7,12 @@ import { LANGUAGE_LABELS, LETTERS, type Question, type SampleTest } from "@/lib/
 export const Route = createFileRoute("/preview")({
   head: () => ({
     meta: [
-      { title: "Preview & edit — TestMakera" },
+      { title: "Preview & edit — REEKO - TEST GENERATOR" },
       {
         name: "description",
         content: "Review the generated questions, fix the wording, and set the correct answers.",
       },
-      { property: "og:title", content: "Preview & edit — TestMakera" },
+      { property: "og:title", content: "Preview & edit — REEKO - TEST GENERATOR" },
       { property: "og:description", content: "Review and edit your generated sample test." },
     ],
   }),

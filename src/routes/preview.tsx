@@ -70,10 +70,11 @@ function PreviewPage() {
 
       <div className="px-4 mt-4">
         <p className="font-marker text-accent text-sm -rotate-1 inline-block">preview &amp; edit</p>
-        <input
+        <textarea
           value={test.title}
+          rows={2}
           onChange={(e) => update({ ...test, title: e.target.value })}
-          className="w-full bg-transparent font-display text-[2.15rem] leading-[0.95] mt-1 outline-none focus:ring-2 focus:ring-accent"
+          className="w-full resize-none bg-transparent font-display text-[1.9rem] leading-[1.02] mt-1 outline-none focus:ring-2 focus:ring-accent"
           aria-label="Test title"
         />
         <p className="text-sm font-medium text-ink/70 mt-1">

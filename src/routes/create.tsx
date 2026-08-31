@@ -15,7 +15,7 @@ export const Route = createFileRoute("/create")({
         content:
           "Enter your subject, grade level, and lesson pointers to generate multiple-choice questions.",
       },
-      { property: "og:title", content: "Create a test — TestMakera" },
+      { property: "og:title", content: "Create a test — REEKO - TEST GENERATOR" },
       {
         property: "og:description",
         content: "Enter lesson pointers and generate a sample test in seconds.",

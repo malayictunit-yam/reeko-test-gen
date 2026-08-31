@@ -7,9 +7,9 @@ import { LANGUAGE_LABELS, type SampleTest } from "@/lib/test-types";
 export const Route = createFileRoute("/saved")({
   head: () => ({
     meta: [
-      { title: "Saved tests — TestMakera" },
+      { title: "Saved tests — REEKO - TEST GENERATOR" },
       { name: "description", content: "Open, re-edit, or download the sample tests you saved." },
-      { property: "og:title", content: "Saved tests — TestMakera" },
+      { property: "og:title", content: "Saved tests — REEKO - TEST GENERATOR" },
       { property: "og:description", content: "Your saved grade school sample tests." },
     ],
   }),

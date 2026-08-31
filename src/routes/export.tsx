@@ -8,7 +8,7 @@ import { LANGUAGE_LABELS, type SampleTest } from "@/lib/test-types";
 export const Route = createFileRoute("/export")({
   head: () => ({
     meta: [
-      { title: "Download your test — TestMakera" },
+      { title: "Download your test — REEKO - TEST GENERATOR" },
       {
         name: "description",
         content: "Download your sample test as a print-ready PDF or an editable Word document.",

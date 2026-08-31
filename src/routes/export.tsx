@@ -13,7 +13,7 @@ export const Route = createFileRoute("/export")({
         name: "description",
         content: "Download your sample test as a print-ready PDF or an editable Word document.",
       },
-      { property: "og:title", content: "Download your test — TestMakera" },
+      { property: "og:title", content: "Download your test — REEKO - TEST GENERATOR" },
       { property: "og:description", content: "Export to PDF or Word, with or without answer key." },
     ],
   }),

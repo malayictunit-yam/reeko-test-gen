@@ -12,7 +12,7 @@ export const Route = createFileRoute("/preview")({
         name: "description",
         content: "Review the generated questions, fix the wording, and set the correct answers.",
       },
-      { property: "og:title", content: "Preview & edit — TestMakera" },
+      { property: "og:title", content: "Preview & edit — REEKO - TEST GENERATOR" },
       { property: "og:description", content: "Review and edit your generated sample test." },
     ],
   }),

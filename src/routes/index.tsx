@@ -48,8 +48,8 @@ function Home() {
           >
             Start a new test
           </Link>
-          <span className="absolute -top-3 -right-1 font-marker text-ink text-sm rotate-6">
-            tatlong hakbang lang!
+          <span className="absolute -top-3 right-2 font-marker text-ink text-sm rotate-6">
+            3 steps lang!
           </span>
         </div>
       </div>

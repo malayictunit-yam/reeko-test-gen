@@ -30,8 +30,11 @@ const LANG_RULE: Record<string, string> = {
 export const generateTest = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => inputSchema.parse(data))
   .handler(async ({ data }) => {
-    const apiKey = process.env["LOVABLE_API_KEY"];
-    if (!apiKey) throw new Error("AI is not configured yet.");
+    const apiKey = process.env["LOVABLE_API_KEY"] ?? process.env["AI_GATEWAY_API_KEY"];
+    if (!apiKey)
+      throw new Error(
+        "AI is not configured yet. Add an AI_GATEWAY_API_KEY environment variable in your hosting settings.",
+      );
 
     const prompt = `You are an experienced Filipino grade school teacher writing a sample test.
 
